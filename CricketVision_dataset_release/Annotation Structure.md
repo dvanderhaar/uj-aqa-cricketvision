@@ -1,4 +1,5 @@
 ## Annotation structure:
+
 "project": {
         "pid": "__VIA_PROJECT_ID__",
         "rev": "__VIA_PROJECT_REV_ID__",
