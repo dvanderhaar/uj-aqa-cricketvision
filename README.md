@@ -2,9 +2,8 @@
 
 Link to paper: Coming soon
 
-I3D-AE-LSTM Conecpt
-
-![Cricket Vision](autoencoder pose+frame.png)
+I3D-AE-LSTM Concept
+[I3D-AE-LSTM](autoencoder pose+frame.png)
 
 This research introduces CricketVision, a dataset comprising 8,540 video clips of cricket strokes, each annotated with detailed phase breakdowns. We develop a novel approach for Action Quality Assessment (AQA) at a body level that leverages an Autoencoder for extracting sophisticated feature representations from video frames and pose estimated keypoints. These features are subsequently utilised by a multi-layer perception regression-based model to accurately predict the quality of cricket actions in terms of their head, shoulder, hands, hips, and feet. Our approach is benchmarked against contemporary state-of-the-art AQA methods and achieves a Spearman Rank Correlation score of 0.84. The performance highlights the significance of integrating pose keypoint and frame data for the nuanced analysis of short and complex action sequences in sports such as cricket. This work aims to foster the development of accurate Action Quality Assessment methods on Cricket Video data.
 
