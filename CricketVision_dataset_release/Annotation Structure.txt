@@ -1,1 +1,277 @@
+## Annotation structure:
+"project": {
+        "pid": "__VIA_PROJECT_ID__",
+        "rev": "__VIA_PROJECT_REV_ID__",
+        "rev_timestamp": "__VIA_PROJECT_REV_TIMESTAMP__",
+        "pname": "Unnamed VIA Project",
+        "creator": "VGG Image Annotator (http://www.robots.ox.ac.uk/~vgg/software/via)",
+        "created": 1694679904195,
+        "vid_list": [
+            "1"
+        ]
+    },
+"attribute": {
+        "1": {
+            "aname": "TEMPORAL-SEGMENTS",
+            "anchor_id": "FILE1_Z2_XY0",
+            "type": 4,
+            "desc": "Temporal segment attribute added by default",
+            "options": {
+                "default": "Default"
+            },
+            "default_option_id": ""
+        },
+        "2": {
+            "aname": "Head_Score",
+            "anchor_id": "FILE1_Z2_XY0",
+            "type": 3,
+            "desc": "",
+            "options": {
+                "0": "1",
+                "1": "2",
+                "2": "3",
+                "3": "4",
+                "4": "5",
+                "5": "6",
+                "6": "7",
+                "7": "8",
+                "8": "9",
+                "9": "10"
+            },
+            "default_option_id": ""
+        },
+        "3": {
+            "aname": "Shoulder_Score",
+            "anchor_id": "FILE1_Z2_XY0",
+            "type": 3,
+            "desc": "",
+            "options": {
+                "0": "1",
+                "1": "2",
+                "2": "3",
+                "3": "4",
+                "4": "5",
+                "5": "6",
+                "6": "7",
+                "7": "8",
+                "8": "9",
+                "9": "10"
+            },
+            "default_option_id": ""
+        },
+        "4": {
+            "aname": "Hands_Score",
+            "anchor_id": "FILE1_Z2_XY0",
+            "type": 3,
+            "desc": "",
+            "options": {
+                "0": "1",
+                "1": "2",
+                "2": "3",
+                "3": "4",
+                "4": "5",
+                "5": "6",
+                "6": "7",
+                "7": "8",
+                "8": "9",
+                "9": "10"
+            },
+            "default_option_id": ""
+        },
+        "5": {
+            "aname": "Hips_Score",
+            "anchor_id": "FILE1_Z2_XY0",
+            "type": 3,
+            "desc": "",
+            "options": {
+                "0": "1",
+                "1": "2",
+                "2": "3",
+                "3": "4",
+                "4": "5",
+                "5": "6",
+                "6": "7",
+                "7": "8",
+                "8": "9",
+                "9": "10"
+            },
+            "default_option_id": ""
+        },
+        "6": {
+            "aname": "Feet_Score",
+            "anchor_id": "FILE1_Z2_XY0",
+            "type": 3,
+            "desc": "",
+            "options": {
+                "0": "1",
+                "1": "2",
+                "2": "3",
+                "3": "4",
+                "4": "5",
+                "5": "6",
+                "6": "7",
+                "7": "8",
+                "8": "9",
+                "9": "10"
+            },
+            "default_option_id": ""
+        },
+        "7": {
+            "aname": "Handedness",
+            "anchor_id": "FILE1_Z2_XY0",
+            "type": 3,
+            "desc": "",
+            "options": {
+                "0": "Right",
+                "1": "Left"
+            },
+            "default_option_id": ""
+        },
+        "8": {
+            "aname": "FootType",
+            "anchor_id": "FILE1_Z2_XY0",
+            "type": 3,
+            "desc": "",
+            "options": {
+                "0": "FrontFoot",
+                "1": "BackFoot"
+            },
+            "default_option_id": ""
+        },
+        "9": {
+            "aname": "StrokeType",
+            "anchor_id": "FILE1_Z2_XY0",
+            "type": 3,
+            "desc": "",
+            "options": {
+                "0": "OffDrive",
+                "1": "OnDrive",
+                "2": "Cut",
+                "3": "Glance",
+                "4": "Hook",
+                "5": "Sweep",
+                "6": "Block"
+            },
+            "default_option_id": ""
+        },
+        "10": {
+            "aname": "Dismissed",
+            "anchor_id": "FILE1_Z2_XY0",
+            "type": 3,
+            "desc": "",
+            "options": {
+                "0": "Yes",
+                "1": "No"
+            },
+            "default_option_id": ""
+        }
+    },
 
+## Score Sample
+
+"1_u0RuTv51": {
+            "vid": "1",
+            "flg": 0,
+            "z": [
+                164.561,
+                165.45537
+            ],
+            "xy": [],
+            "av": {
+                "1": "Buildup"
+            }
+        },
+        "1_nVbxVsMn": {
+            "vid": "1",
+            "flg": 0,
+            "z": [
+                165.455,
+                165.56143
+            ],
+            "xy": [],
+            "av": {
+                "1": "Execution"
+            }
+        },
+        "1_nx7Y8KP8": {
+            "vid": "1",
+            "flg": 0,
+            "z": [
+                165.561,
+                166.15234
+            ],
+            "xy": [],
+            "av": {
+                "1": "FollowThrough"
+            }
+        },
+        "1_gaMVJshf": {
+            "vid": "1",
+            "flg": 0,
+            "z": [
+                214.62203
+            ],
+            "xy": [
+                2,
+                570.78947,
+                80.618,
+                152.76316,
+                214.054
+            ],
+            "av": {
+                "1": "Buildup",
+                "2": "4",
+                "3": "3",
+                "4": "3",
+                "5": "2",
+                "6": "3",
+                "7": "0"
+            }
+        },
+        "1_ILORp1Pp": {
+            "vid": "1",
+            "flg": 0,
+            "z": [
+                215.40719
+            ],
+            "xy": [
+                2,
+                536.525,
+                175.135,
+                250.193,
+                394.749
+            ],
+            "av": {
+                "1": "Execution",
+                "2": "3",
+                "3": "2",
+                "4": "3",
+                "5": "2",
+                "6": "3",
+                "8": "0",
+                "9": "6"
+            }
+        },
+        "1_G7l99wiJ": {
+            "vid": "1",
+            "flg": 0,
+            "z": [
+                215.92506
+            ],
+            "xy": [
+                2,
+                550.425,
+                194.595,
+                275.212,
+                389.189
+            ],
+            "av": {
+                "1": "FollowThrough",
+                "2": "3",
+                "3": "2",
+                "4": "2",
+                "5": "2",
+                "6": "3",
+                "10": "0"
+            }
+        },
