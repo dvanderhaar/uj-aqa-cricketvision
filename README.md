@@ -1,4 +1,4 @@
-##uj-aqa-cricketvision
+## uj-aqa-cricketvision
 
 Link to paper: Coming soon
 
