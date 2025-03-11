@@ -11,12 +11,19 @@ This research introduces CricketVision, a dataset comprising 8,540 video clips o
 This repository contains the CricketVison dataset + code introduced in the above paper. If you find this dataset or code useful, please cite the following paper:
 
 @InProceedings{Moodley_2025_WACV,
+
     author    = {Moodley, Tevin and van der Haar, Dustin Terence},
+    
     title     = {I3D-AE-LSTM: A 2-Stream Autoencoder for Action Quality Assessment using a Newly Created Cricket Batsman Video Dataset},
+    
     booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    
     month     = {February},
+    
     year      = {2025},
+    
     pages     = {5470-5478}
+    
 }
 
 ## Other Relevant Work
