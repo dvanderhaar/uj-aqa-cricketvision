@@ -12,32 +12,14 @@ This repository contains the CricketVison dataset + code introduced in the above
 
 Citation
 
+```bibtex
 @InProceedings{Moodley_2025_WACV,
-
     author    = {Moodley, Tevin and van der Haar, Dustin Terence},
-    
     title     = {I3D-AE-LSTM: A 2-Stream Autoencoder for Action Quality Assessment using a Newly Created Cricket Batsman Video Dataset},
-    
     booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
-    
     month     = {February},
-    
     year      = {2025},
-    
     pages     = {5470-5478}
-    
-}
-@article{Gaboardi2021,
-    doi       = {10.21105/joss.02826},
-    url       = {https://doi.org/10.21105/joss.02826},
-    year      = {2021},
-    publisher = {The Open Journal},
-    volume    = {6},
-    number    = {62},
-    pages     = {2826},
-    author    = {James D. Gaboardi and Sergio Rey and Stefanie Lumnitz},
-    title     = {spaghetti: spatial network analysis in PySAL},
-    journal   = {Journal of Open Source Software}
 }
 
 ## Other Relevant Work
