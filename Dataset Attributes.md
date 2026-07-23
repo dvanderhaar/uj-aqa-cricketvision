@@ -1,3 +1,104 @@
+# Dataset
+
+The **UJ-AQA-CricketVision** dataset is the first publicly available Action Quality Assessment (AQA) dataset for cricket batting. It contains **8,182 annotated batting video clips** collected from international cricket footage and is designed to support research in Action Quality Assessment, computer vision, pose estimation, sports analytics, and cricket coaching. The dataset and its construction are described in our WACV publication. :contentReference[oaicite:0]{index=0}
+
+## Dataset Contents
+
+The repository contains both the **video clips** and the corresponding **annotation files**.
+
+### Videos
+
+The dataset consists of **8,182 short video clips**, where each clip represents a single cricket batting stroke.
+
+Each clip contains:
+
+- One complete batting action
+- Three annotated phases:
+  - Buildup
+  - Execution
+  - Follow-through
+- Front-foot and back-foot strokes
+- Left- and right-handed batters
+- Six batting stroke categories:
+  - Off Drive
+  - On Drive
+  - Cut / Square Drive
+  - Glance
+  - Hook
+  - Block
+
+The videos are organised into folders according to their batting attributes, making it easy to locate samples for specific experiments.
+
+---
+
+## Annotation Files
+
+Each video has an associated JSON annotation containing all metadata required for training and evaluation.
+
+The annotation files include:
+
+- Video filename
+- Stroke type
+- Foot type
+- Batter handedness
+- Phase timestamps
+- Bounding box coordinates
+- Overall action quality score
+- Individual body-part scores
+  - Head
+  - Shoulders
+  - Hands
+  - Hips
+  - Feet
+- Additional metadata captured during annotation
+
+The JSON annotations can be downloaded directly from GitHub together with the corresponding videos.
+
+---
+
+## Repository Structure
+
+```text
+CricketVision_dataset_release/
+│
+├── JSON.zip/
+│   ├── P1_V1/
+│   └── ...
+│
+├── Videos.zip/
+│   ├── P1_V1
+│   ├── ...
+│
+├── scoring_guideline/
+│
+└── README.md
+```
+
+---
+
+## Using the Dataset
+
+Clone the repository:
+
+```bash
+git clone https://github.com/dvanderhaar/uj-aqa-cricketvision.git
+```
+
+The videos can be accessed directly from the `CricketVision_dataset_release/videos.zip` directory, while the accompanying JSON files provide the annotations required to identify the stroke type, batting attributes, phase locations, quality scores, and other metadata for each sample.
+
+The annotation files are stored in a standard JSON format and can be loaded easily in Python:
+
+```python
+import json
+
+with open("annotations/dataset.json", "r") as f:
+    annotations = json.load(f)
+
+print(annotations[0])
+```
+
+Each JSON record corresponds to a single video clip (can be downloaded under dataset release), allowing researchers to directly link the annotations with the associated batting video for training, evaluation, or further analysis.
+
 # Dataset Statistics
 
 ## Overall Competency Distribution
