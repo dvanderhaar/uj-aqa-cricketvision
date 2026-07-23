@@ -1,6 +1,6 @@
 # Dataset
 
-The **UJ-AQA-CricketVision** dataset is the first publicly available Action Quality Assessment (AQA) dataset for cricket batting. It contains **8,182 annotated batting video clips** collected from international cricket footage and is designed to support research in Action Quality Assessment, computer vision, pose estimation, sports analytics, and cricket coaching. The dataset and its construction are described in our WACV publication. :contentReference[oaicite:0]{index=0}
+The **UJ-AQA-CricketVision** dataset is the first publicly available Action Quality Assessment (AQA) dataset for cricket batting. It contains **8,182 annotated batting video clips** collected from international cricket footage and is designed to support research in Action Quality Assessment, computer vision, pose estimation, sports analytics, and cricket coaching. The dataset and its construction are described in our WACV publication.
 
 ## Dataset Contents
 
